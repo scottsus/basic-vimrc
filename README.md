@@ -4,15 +4,25 @@ Very basic vimrc template with essentials like syntax, line number, annoying err
 
 ## vim-plug
 
-Additionally, I'm using the `sainnhe/sonokai` colorscheme, which can be enabled by first installing `vim-plug` on your terminal, then installing the sonokai plugin
+Additionally, I'm using the `sainnhe/sonokai` colorscheme, which uses `vim-plug` under the hood.
+
+## Usage
+
+1. Copy this file to your `.vimrc`. Warning: this erases your existing `.vimrc`.
 
 ```
-curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
-    https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+cp .vimrc ~/.vimrc
 ```
 
-and in vim:
+2. In vim, simply type:
 
 ```
 :PlugInstall
+```
+
+3. Cleanup: remove this repo
+
+```
+cd ..
+rm -rf ./basic-vimrc
 ```
