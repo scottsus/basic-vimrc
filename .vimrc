@@ -27,5 +27,5 @@ Plug 'sainnhe/sonokai'
 call plug#end()
 
 " Colorschemes
+set termguicolors
 colorscheme sonokai
-
